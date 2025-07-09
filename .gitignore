@@ -1,0 +1,69 @@
+# Node & React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+build/
+dist/
+.temp/
+.cache/
+coverage/
+*.tgz
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# Mac system files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Editor directories and files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Misc
+*.local
+*.swp
+
+# Ignore frontend build artifacts (if frontend is a subfolder)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.*.local
+frontend/coverage/
+frontend/.cache/
+frontend/.temp/
+
+# Ignore backend build artifacts (if using Maven/Gradle)
+target/
+out/
+*.iml
+
+# Ignore IntelliJ project files
+*.ipr
+*.iws
+
+# Ignore JetBrains IDEs
